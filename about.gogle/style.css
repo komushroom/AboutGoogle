@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav a{
+    /* padding-left: 30px; */
+    padding-top: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #5f6368;
+    font-weight: 400;
+    padding: 12px;
+}
+
+nav a:hover{
+    background-color: #f1f5f9;
+    border-radius: 5px;
+}
+nav img:hover{
+    background-color: #f1f5f9;
+    border-radius: 5px;
+}
+
+
+.blue{
+    color: #4285f4;
+}
+.red{
+    color: #ea4335;
+}
+.green{
+    color: #34a853;
+}
+.yellow{
+    color: #f9ab00;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    text-align: center;
+    font-weight: 510;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+.galaxy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.galaxy img{
+    width: 1070px;
+    height: 601px;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+.galaxy h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+.galaxy a{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #4285f4;
+    margin-bottom: 36px;
+}
+
+.title2{
+    margin-bottom: 80px;
+}
+
+.title2 h1{
+    text-align: center;
+    font-weight: 510;
+    font-size: 70px;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+
+.title2 .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.bluebtn button{
+    background-color: #4285f4;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.bluebtn button:hover{
+    background-color: #1e40af;
+}
+
+.whitebtn button{
+    background-color: #fff;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px 20px;
+    color: #4285f4;
+    font-size: 16px;
+    border: solid 0.5px transparent;
+}
+
+.whitebtn button:hover{
+    border: solid 0.5px #4285f4;
+    background-color: #f8fafc;
+}
+
+.every{
+    display: grid;
+    grid-template-columns: repeat(12,minmax(5px,1fr));
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 4rem;
+}
+
+.product{
+    grid-column-end: span 5;
+    text-align: center;
+}
+
+.product h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+
+
+.product a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #4285f4;
+
+}
+
+
+.product img{
+    border-radius: 10px;
+    width: 100%;
+}
